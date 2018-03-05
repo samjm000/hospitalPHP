@@ -1,0 +1,88 @@
+
+/*
+.navBarGap {
+	padding-top: 5%;
+}
+
+.hospital {
+	
+}
+
+.realtime {
+	background-color: white;
+
+}
+.layout {
+	background-color: white;
+
+}
+.patients {
+	background-color: white;
+
+}
+.overview {
+	background-color: white;
+
+}
+
+.whiteTextColour {
+	color: white;
+}
+*/
+
+/*Manage width of central patient Box
+*/
+.container {
+	height: 30px;
+}
+
+.center {
+	align-content: center;
+}
+
+
+.manualLeftBlock{
+	position: relative;
+	
+}
+.manualRightBlock {
+	position: relative;
+	left: 50px;	
+}
+
+/* SLIDER CODING */
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}

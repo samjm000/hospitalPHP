@@ -1,0 +1,33 @@
+div.jumbotron {
+	height: 768px;
+	width: 100%;
+	align-content: center;
+	background-image: url("../images/hospitalBackdrop.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.simulationStartButton {
+	position: center;
+	text-align: center;
+	width: 80%;
+	max-width: 950px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+
+.symphonyStartButton {
+	position: center;
+	text-align: center;
+	width: 80%;
+	max-width: 950px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+
+.space {
+	height: 30%;
+}
+
