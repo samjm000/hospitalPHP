@@ -43,17 +43,15 @@ $("#ageButtonGroup").on('click', '.btn', function() {
 
 
 //SCript to create patient object 
+
+
 var patient = {
-	"age" : "0";
-	"eNotes" : "";
-	"diagnosis" : "";
-	"arrivalTime" : "";
-}
+	"age" : "0",
+	"eNotes" : "",
+	"diagnosis" : "",
+	"arrivalTime" : ""
+};
+
 
 //On click of create patient button create patient object with values in blueprint
 
-$(#createPatientButton).on('click', function () {
-
-console.log($("#ageButtonGroup").findClass("btn-primary")
-	)
-	});
