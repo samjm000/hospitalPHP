@@ -1,6 +1,13 @@
 
 //PATIENT CREATOR CONFIGURATION
 
+var patient = {
+  "age" : "0",
+  "eNotes" : "",
+  "diagnosis" : "",
+  "arrivalTime" : ""
+};
+
 
 //Patient creator colour coding on click
 $("#manVsAutoBtnGroup").on('click', '.btn', function() {
@@ -36,21 +43,40 @@ slider.oninput = function() {
 } 
 
 //Patient blueprint colour coding on click
+
 $("#ageButtonGroup").on('click', '.btn', function() {
+  console.log("Setting patient age ");
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
+  patient.age = $(this).prop('id');
+  console.log(patient.age);
   });
 
 
 
 //SCript to create patient object 
 
+  //plan : 
+  //Take age if exists - if not - error
+  //take E-Notes - if empty - error
+  // take elapsed time to arrival
 
-var patient = {
-	"age" : "0",
-	"eNotes" : "",
-	"diagnosis" : "",
-	"arrivalTime" : ""
-};
+  // create patient
+
+$("#createPatientButton").on('click', function() { 
+
+    // double check patient age
+    if($("#ageButtonGroup >.btn").hasClass("btn-primary")) {
+    }
+    else {
+      console.log("no button selected"); 
+      alert("No patient age selected");
+    }
+
+    //check patient diagnosis
+
+  });
+
+
 
 
 //On click of create patient button create patient object with values in blueprint

@@ -32,9 +32,9 @@
     <h5 class="card-title">Patient Blueprint</h5>
     <p class="card-text"> 
     	<div id="ageButtonGroup" class="btn-group btn-group-sm">
-  		<button type="button" class="btn btn-secondary ">Under 45</button>
-  		<button type="button" class="btn btn-secondary">45 - 75</button>
-  		<button type="button" class="btn btn-secondary">Over 75</button>
+  		<button id ="1" type="button" class="btn btn-secondary ">Under 45</button>
+  		<button id="2" type="button" class="btn btn-secondary">45 - 75</button>
+  		<button id="3" type="button" class="btn btn-secondary">Over 75</button>
 		</div> 
 		<br> <br>
     	 <div class="form-group">
