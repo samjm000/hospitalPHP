@@ -19,8 +19,10 @@
 <?php include("databasePHP/connectDB.php"); ?>
 <?connectToDB()?>
 <main>
-   
-   Chat about Project
+   <br>
+   Project conception by Dave Paradise.
+   <br><br>
+   Design, implementation and vision by Sam McInerney.
     
 </main>
 

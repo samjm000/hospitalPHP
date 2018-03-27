@@ -2,7 +2,7 @@ div.jumbotron {
 	height: 768px;
 	width: 100%;
 	align-content: center;
-	background-image: url("../images/hospitalBackdrop.jpg");
+	background-image: url("../images/hospitalBackdropFaded.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

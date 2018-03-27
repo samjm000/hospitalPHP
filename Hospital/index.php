@@ -24,6 +24,7 @@
 <main>
    	<!-- Central Hospital Main Image--> 
     <div class="jumbotron"> 
+       
         <!-- Position start Symphony button in the middle of the screen--> 
    		<div class="space"></div>
         <form action="databasePHP/connectDB.php" method="post">

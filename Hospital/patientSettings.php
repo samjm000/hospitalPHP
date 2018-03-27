@@ -85,32 +85,8 @@
       </div>
     </div>
 
-
-<!--
-
-<br>Age
-<br>Triage Note
-<br>Calculated Diagnosis (Gen)
-<br>Time elapsed
-<br><br>
-<br>Created Patient list
-<br>
-<br>Dynamic creation 
-<br>slider of time between patients
-<br>.. elongated - brief 
-<br>
-<br>slider of percentage to be admitted
-<br>.. 0 - 100
-<br>
-<br>
-<br>Prefix settings: 
-<br>Quiet 
-<br>Normal
-<br>Busy
-<br>Emergency
--->
-
 </main>
 <script src="js/configureSimJS/patientCreator.js"></script>
+<script src="js/configureSimJS/pageEffects.js"></script>
 </body>
 </html>
