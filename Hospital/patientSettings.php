@@ -69,13 +69,8 @@
        					<th>Time to arrive</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>COPD Exacerbation</td>
-        <td>1 minute</td>
-      </tr>
-		<br> <br>
+    <tbody id="patientListTableBody">
+ 		<br> <br>
     	</tbody>
     </table>
 </p>

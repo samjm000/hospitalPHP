@@ -42,8 +42,22 @@ $("#createPatientButton").on('click', function() {
     }
     //Get arrival time and Send patient to Patient list
     arrivalTime = $("#myRange").val();
-    patientList.push[new Patient(ageGroup,eNoteTrimmed,arrivalTime)];
+    try {
+      var patient = new Patient(ageGroup,eNoteTrimmed,diagnosis,arrivalTime);
+      console.log("patient : " +patient.diagnosis+ ":" +patient.arrivalTime);
+      }
+      catch(err)
+      {
+        console.log("Error : " +err);
+      }
+    patientList.push(patient);
+    console.log("patientList length :" +patientList.length);
+    buildRow(patientList);
   });
+
+//push patient to table on screen
+
+
 
 
 

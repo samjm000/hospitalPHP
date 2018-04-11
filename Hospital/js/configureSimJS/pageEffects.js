@@ -7,7 +7,6 @@ $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
   });
 
-
 //Patient manual vs automatic creation buttons
 $(document).ready(function(){
     $("#manualButton").click(function(){
@@ -24,7 +23,6 @@ $(document).ready(function(){
         $("#automaticPanel").fadeIn();
     });
 });
-
 
 //slider 
 var slider = document.getElementById("myRange");
@@ -44,4 +42,21 @@ $("#ageButtonGroup").on('click', '.btn', function() {
   console.log(ageGroup);
   });
 
+
+
+//Dynamic table creator
+function buildRow(patientList) {
+  console.log("Bulding and replacing Row");
+  
+  console.log("Patient List length is :" +patientList.length);
+
+    for (var i=0; i<patientList.length; i++) {
+      //var number = i+1;
+      var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
+      console.log("Replacement String:" + tableReplacement);
+    }
+
+  //patientList[i]
+  $("#patientListTableBody").append(tableReplacement);
+}
 
