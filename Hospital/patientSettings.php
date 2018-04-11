@@ -55,13 +55,13 @@
 
 			<!-- PATIENT LIST TABLE -->
 
-      		<div class="col-sm-9 right">
+      		<div class="col-sm-6 right">
       		<div id="manualPanel" class="card bg-light manualRightBlock" style="width: 40rem; padding-left: 10px;">
  			<div class="card-body">
   			<br><br>
     		<h5 class="card-title">Patient List</h5>
     			<p class="card-text">
-    				<table class="table table-striped">
+    				<table id="patientListTable" class="table table-striped">
     					<thead>
       					<tr>
         				<th>Patient</th>

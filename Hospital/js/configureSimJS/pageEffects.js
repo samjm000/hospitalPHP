@@ -1,8 +1,12 @@
 
+//variables
+var ageGroup;
+
 //Patient creator colour coding on click
 $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
   });
+
 
 //Patient manual vs automatic creation buttons
 $(document).ready(function(){
@@ -33,12 +37,11 @@ slider.oninput = function() {
 } 
 
 //Patient blueprint colour coding on click
-
 $("#ageButtonGroup").on('click', '.btn', function() {
-  console.log("Setting patient age ");
+  console.log("Setting patient ageGroup to :");
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
-  patient.age = $(this).prop('id');
-  console.log(patient.age);
+  ageGroup = $(this).prop('id');
+  console.log(ageGroup);
   });
 
 

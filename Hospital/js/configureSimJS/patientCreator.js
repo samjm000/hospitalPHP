@@ -1,48 +1,49 @@
 
 //PATIENT CREATOR CONFIGURATION
 
+//Page Variables
+var eNoteTrimmed;
+var diagnosis;
+var arrivalTime;
+var patientList =[];
+
 //Constructor for Patient
 function Patient(age, eNote, diagnosis, arrivalTime) {
     this.age = age;
     this.eNote = eNote;
-    this.age = age;
+    this.diagnosis = diagnosis;
     this.arrivalTime = arrivalTime;
 }
 
+//Update Diagnosis with E-Note changes, set subsequent variables
+$("#e-note").bind('input propertychange', function() {
+  $("#diagnosis").val(calculateDiagnosis(this.value));
+  eNoteTrimmed = $.trim($("#e-note").val());
+  diagnosis = $("#diagnosis").val();
+});
 
-//To create patient object 
-  //Take age if exists - if not - error
-  //take E-Notes - if empty - error
-  //take elapsed time to arrival 
-
-
+//Validate patient creation
 $("#createPatientButton").on('click', function() { 
-
     // check patient age is selected
     if($("#ageButtonGroup >.btn").hasClass("btn-primary")) {
     }
     else {
-      console.log("no button selected"); 
-      alert("No patient age selected 2");
+      alert("No patient age selected");
       return;
     }
-     console.log("E-note data check");
     // check e-note is not empty 
     if($.trim($("#e-note").val())) {
-      console.log("E-note data present");
+      console.log("E-note data present and is " +eNoteTrimmed);
+      console.log("Subsequent diagnosis is " + $("#diagnosis").val());
     }
     else {
-      console.log("no e-note text entered"); 
       alert("No e-note text entered");
       return;
     }
-       
-    //check patient diagnosis
-
+    //Get arrival time and Send patient to Patient list
+    arrivalTime = $("#myRange").val();
+    patientList.push[new Patient(ageGroup,eNoteTrimmed,arrivalTime)];
   });
 
 
-
-
-//On click of create patient button create patient object with values in blueprint
 

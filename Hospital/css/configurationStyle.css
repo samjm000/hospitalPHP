@@ -43,11 +43,13 @@
 
 .manualLeftBlock{
 	position: relative;
+    padding-right: 10px;
 	
 }
 .manualRightBlock {
 	position: relative;
-	left: 50px;	
+	left: 50px;
+    padding-left: 10px;
 }
 
 /* SLIDER CODING */
