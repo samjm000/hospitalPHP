@@ -10,3 +10,24 @@
 	margin-left: 20px;
 }
 
+.patientAddedColour {
+	-webkit-animation-name: green; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation-name: green;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes green {
+    50%   {background-color:white}
+    100% {background-color:#66ff99}
+}
+
+/* Standard syntax */
+@keyframes green {
+ 	50%   {background-color:white}
+    100% {background-color:#66ff99}
+}

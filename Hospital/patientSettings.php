@@ -74,6 +74,7 @@
     	</tbody>
     </table>
 </p>
+<a id="clearPatientList" href="#" class="btn btn-primary text-center">Clear List</a>
 </div>
   </div>
 </div>

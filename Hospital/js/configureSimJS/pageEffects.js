@@ -43,20 +43,22 @@ $("#ageButtonGroup").on('click', '.btn', function() {
   });
 
 
-
 //Dynamic table creator
 function buildRow(patientList) {
-  console.log("Bulding and replacing Row");
-  
-  console.log("Patient List length is :" +patientList.length);
-
-    for (var i=0; i<patientList.length; i++) {
-      //var number = i+1;
+  for (var i=0; i<patientList.length; i++) {
       var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
-      console.log("Replacement String:" + tableReplacement);
-    }
-
-  //patientList[i]
+      //console.log("Replacement String:" + tableReplacement);
+  }
+  $("#card-body").animate({color: "#66ff99"}, 1500).animate({color: "white"}, 1500);
+  
+  //STOP  
   $("#patientListTableBody").append(tableReplacement);
 }
 
+
+//Patient List clear
+$("#clearPatientList").on('click', '.btn', function() {
+  console.log("Clearing Patients");
+  patientList = [];
+   $("#patientListTableBody").replaceWith("");
+  });
