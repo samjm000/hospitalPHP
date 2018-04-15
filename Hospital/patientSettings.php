@@ -11,7 +11,8 @@
 <section class="jumbotron text-center">
         <div class="container patientSelector" >
           <h1 class="jumbotron-heading">Patient Creator</h1>
-          <p class="lead text-muted">Select patient creation mode to allow customisation or automation of patients in simulation</p>
+          <p class="lead text-
+          uted">Select patient creation mode to allow customisation or automation of patients in simulation</p>
           	<p>
           	<div id="manVsAutoBtnGroup" class="btn-group">
 
@@ -27,7 +28,7 @@
 	<div class="row">
       <div class="col-sm-3"">
       	<div id="manualPanel" class="card bg-light manualLeftBlock" style="width: 18rem">
-  <div class="card-body">
+  <div id="cardBodyLeft" class="card-body">
   	<br><br>
     <h5 class="card-title">Patient Blueprint</h5>
     <p class="card-text"> 
@@ -57,7 +58,7 @@
 
       		<div class="col-sm-6 right">
       		<div id="manualPanel" class="card bg-light manualRightBlock" style="width: 40rem; padding-left: 10px;">
- 			<div class="card-body">
+ 			<div id="cardBodyRight" class="card-body">
   			<br><br>
     		<h5 class="card-title">Patient List</h5>
     			<p class="card-text">
@@ -82,7 +83,11 @@
     </div>
 
 </main>
-<script src="js/configureSimJS/patientCreator.js"></script>
-<script src="js/configureSimJS/pageEffects.js"></script>
+<script src="js/configureSimJS/patientCreator.js"></script> 
+<script src="js/configureSimJS/pageEffects.js"></script> 
+<link rel="stylesheet" href="js/jqueryUI/jquery-ui.min.css">
+<script src="js/jqueryUI/jquery-ui.min.js"></script>
+
+
 </body>
 </html>

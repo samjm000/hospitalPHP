@@ -1,4 +1,4 @@
-
+//# sourceURL=pageEffects.js';
 //variables
 var ageGroup;
 
@@ -7,14 +7,6 @@ $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
   });
 
-//Patient manual vs automatic creation buttons
-$(document).ready(function(){
-    $("#manualButton").click(function(){
-    	console.log("manualButton pushed")
-    	$("#automaticPanel").hide();
-        $("#manualPatientSetup").fadeIn();
-    });
-});
 
 //Patient manual vs automatic creation buttons
 $(document).ready(function(){
@@ -22,6 +14,19 @@ $(document).ready(function(){
     	$("#manualPatientSetup").hide();
         $("#automaticPanel").fadeIn();
     });
+    //Patient List clear
+  $("#clearPatientList").click(function(){
+    console.log("Clearing Patients");
+    patientList.length=0;
+    $("#patientListTableBody").empty();
+  });
+
+   $("#manualButton").click(function(){
+      console.log("manualButton pushed")
+      $("#automaticPanel").hide();
+        $("#manualPatientSetup").fadeIn();
+    });
+
 });
 
 //slider 
@@ -46,19 +51,17 @@ $("#ageButtonGroup").on('click', '.btn', function() {
 //Dynamic table creator
 function buildRow(patientList) {
   for (var i=0; i<patientList.length; i++) {
-      var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
-      //console.log("Replacement String:" + tableReplacement);
-  }
-  $("#card-body").animate({color: "#66ff99"}, 1500).animate({color: "white"}, 1500);
   
-  //STOP  
+    //$("#card-body").animate({backgroundcolor: "#66ff99"}, 1500).animate({backgroundcolor: "fff"}, 1500);
+
+    var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
+    console.log("Replacement String:" + tableReplacement);
+  }
+  
+  $("#cardBodyRight").animate({backgroundColor: "#ccffe6"},250).animate({backgroundColor: "#fff"},1000);
+ 
   $("#patientListTableBody").append(tableReplacement);
-}
+  console.log("Patient added to table");
+};
 
 
-//Patient List clear
-$("#clearPatientList").on('click', '.btn', function() {
-  console.log("Clearing Patients");
-  patientList = [];
-   $("#patientListTableBody").replaceWith("");
-  });

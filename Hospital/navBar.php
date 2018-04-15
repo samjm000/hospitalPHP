@@ -14,7 +14,7 @@
             <a class="nav-link" href="/about.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="/configureSim.php">Configure Simulation</a>
+            <a class="nav-link" href="/configureSim.php">Configure Simulation</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Simulation Settings</a>
@@ -25,11 +25,12 @@
               <a class="dropdown-item" href="/summary.php">Summary Screen</a>
             </div>
                <li class="nav-item">
-            <a class="nav-link disabled" href="#">Overview</a>
+            <a class="nav-link" href="#">Overview</a>
           </li>
              <li class="nav-item">
-            <a class="nav-link disabled" href="#">Log Out</a>
+            <a class="nav-link" href="/login.php">Log In</a>
           </li>
+
         </ul>
       </div>
     </nav>
