@@ -17,7 +17,7 @@
 <?php include("navBar.php"); ?>
 <!-- Include DB handling PHP --> 
 <?php include("databasePHP/connectDB.php"); ?>
-<?connectToDB()?>
+
 <main>
    
 <div class="container-fluid">

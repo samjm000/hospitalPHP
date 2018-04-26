@@ -4,3 +4,12 @@ body {
   padding-top: 3.5rem;
 
 }
+
+.mainText {
+    padding:10px;
+  font-size:20px;
+
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}

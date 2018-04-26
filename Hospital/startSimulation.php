@@ -20,15 +20,17 @@
 <?php include("navBar.php"); ?>
 <!-- Include DB handling PHP --> 
 <?php include("databasePHP/connectDB.php"); ?>
-
+<?connectToDB()?>
 <main>
-   	<!-- Central Hospital Main Image--> 
+    <!-- Central Hospital Main Image--> 
     <div class="jumbotron"> 
        
         <!-- Position start Symphony button in the middle of the screen--> 
-   		<div class="space"></div>
-       <h1> T.E.W.S : Triage Early Warning System</h1>
-       <p> Please select an option</p>
+      <div class="space"></div>
+        <form action="databasePHP/connectDB.php" method="post">
+            <p><a class="btn btn-primary btn-lg simulationStartButton" href="#" role="button" onclick="startSimulationState()">Start Simulation »</a></p>
+            <p><a class="btn btn-primary btn-lg btn-danger symphonyStartButton" href="#" role="button">Connect to Symphony »</a></p>
+        </form>
         </div>
     </div>
 </main>
