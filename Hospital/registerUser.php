@@ -12,18 +12,12 @@
 <link  href="css/login.css" rel="stylesheet">
 <link  href="css/register.css" rel="stylesheet">
 <link  href="css/navbarStyle.css" rel="stylesheet">
-<!-- Scripts for checking simulation setup prior to launching -->
-<script src="js/startSimulationJS/startSimulationCheck.js"></script>
-<script src="js/globalVariables.js"></script>
-
-
 </head>
 <body>
 <!-- NavBar Import--> 
 <?php include("navBar.php"); ?>
-<?php include("registerUserDB.php"); ?>
 <!-- Include DB handling PHP --> 
-
+<?php include("registerUserDB.php"); ?>
 <main>
    	<!-- Central Hospital Main Image--> 
     <div class="jumbotron backdrop"> 

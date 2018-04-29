@@ -21,9 +21,27 @@ static $conn;
 	}
 }
 
+function confirmUser($user, $password) {
+$con = connectToDB();
+$stmt = $con->prepare("SELECT * FROM user WHERE name = ? AND password = ?");
+$stmt->bind_param("si", $_POST['name'], $_POST['age']);
+$stmt->execute();
+if($stmt->affected_rows === 0) { 
+ $loginError = "No user found, confirm details or register.";
+ echo "No user found, confirm details or register.";
+  exit('No rows updated'); 
+  return 0;
+}
+else {
+  //echo "successfully logged in";
+  $loginError = "successfully logged in";
+  return 1;
+}
+$stmt->close();
+}
 
-function addUser($user, $email, $password) 
-{
+
+function addUser($user, $email, $password) {
 	$con = connectToDB();
 	$stmt = $con->prepare("INSERT INTO user (name,emailAddress,password) VALUES (?,?,?)");
 	$stmt->bind_param("sss", $user, $email, $password);
@@ -36,8 +54,7 @@ function addUser($user, $email, $password)
 	}
 }
 
-function sendUserConfirmationEmail($user, $email, $password)
-{
+function sendUserConfirmationEmail($user, $email, $password) {
 	require_once("mailer/PHPMailer.php");
 	require_once("mailer/SMTP.php");
   	require_once("mailer/POP3.php");

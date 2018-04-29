@@ -24,21 +24,24 @@
 <!-- NavBar Import--> 
 <?php include("navBar.php"); ?>
 <!-- Include DB handling PHP --> 
+<?php include("loginUserDB.php"); ?>
 
 <main>
    	<!-- Central Hospital Main Image--> 
     <div class="jumbotron backdrop"> 
        
-        <!-- Position start Symphony button in the middle of the screen--> 
+      <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="loginForm">
    		<div class="innerContainer">
           <div class="box">
             <h1>Login</h1>
-              <input type="text" placeholder="Username"/>
-              <input type="text" placeholder="Password"/>
-              <button>Login</button>
+              <input type="text" placeholder="Username" id="username"/>
+              <input type="text" placeholder="Password" id ="password"/>
+              <button type="submit" form="loginForm" value="submit">Login</button>
               <p>Not Registered? <span id="signUp">Sign Up</span></p>
+              <p><?php echo $loginError;?> </p> 
             </div>
         </div>
+      </form>
     </div>
 </main>
 
