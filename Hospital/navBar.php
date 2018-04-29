@@ -1,3 +1,6 @@
+
+
+
   <!-- NAV BAR -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="/index.php">T.E.W.S</a>
@@ -5,23 +8,22 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto" id="mainMenu">
           
-          <li class="nav-item active">
-            <a class="nav-link" href="/about.php">About</a>
+          <li class="nav-item nav">
+            <a class="nav-link" href="/about.php" id="aboutButton">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav" id="loginButton">
             <a class="nav-link" href="/login.php">Log In</a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="/configureSim.php">Configure Simulation</a>
+         
+           <li class="nav-item d-none" id="tewsSimButton">
+            <a class="nav-link" href="/configureSim.php">Start TEWS Simulator</a>
           </li>
-          <li class="nav-item dropdown">
-           
-               <li class="nav-item">
-            <a class="nav-link" href="#">Start Dashboard</a>
+
+             <li class="nav-item d-none " id="tewsLiveButton">
+            <a class="nav-link" href="/startSimulation.php">Start TEWS Live</a>
           </li>
 
         </ul>

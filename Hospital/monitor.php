@@ -17,7 +17,7 @@
 </head>
 <body>
 
-	<?php include("navBar.php"); ?>
+	<?php include("simulationHeader.php"); ?>
 
 <!-- Central JUMBOTRON Main Image--> 
     <main>

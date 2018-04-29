@@ -12,7 +12,7 @@ function startSimulationState () {
 	if(aIEngineReady==0||patientCreatorReady==0||bedMonitorReady==0) { console.log("Not ready to start");
 	} 
 	else { 	console.log("Ready to start");
-
+	window.location.href = "/simulationScreen.php";
 	}
 }
 

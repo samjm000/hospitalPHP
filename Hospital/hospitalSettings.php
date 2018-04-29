@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>hospital setting</title>
+<title>hospital settings</title>
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,18 +9,30 @@
 <body>
 <main>
 <br>
+<h1>Hospital Simulation Settings </h1>
+<p>Used to save simulation outcome and generate feedback data </p>
 Hospital Name
 <br>
-<input type="name" id="inputName" class="form-control" placeholder="Hospital Name" required="" autofocus="" value="Royal Sussex">
+<input type="name" id="inputName" class="form-control" placeholder="Hospital Name" required="" autofocus="" value="Royal Sussex County">
 <br>
 <br>
-Simulation Type
+Triage Early Warning System Simulation Type
 <br>
-<input type="simType" id="simName" class="form-control" placeholder="Sim Tyoe Name" required="" autofocus="" value="Warning System">
+<input type="simType" id="simName" class="form-control" placeholder="Sim Type " required="" autofocus="" value="Warning System">
 <br>
-Hospital Prefab
 <br>
-Select from the pre-configured layouts below:
+Number of Beds in Simulation
+<br>
+<input type="bedNumber" id="bedNumber" class="form-control" placeholder="bedNumber" required="" autofocus="" value="25">
+<br>
+<br>
+Simulation Running note
+<br>
+<input type="bedNumber" id="bedNumber" class="form-control" placeholder="Relevant simulation note" required="" autofocus="" value="">
+
+<br><br>
+<button type="button" class="btn btn-secondary">Restore Default</button>
+<button type="button" class="btn btn-success">Accept Changes</button>
 
 </main>
 </body>

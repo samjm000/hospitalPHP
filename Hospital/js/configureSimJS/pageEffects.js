@@ -1,6 +1,7 @@
 //# sourceURL=pageEffects.js';
 //variables
 var ageGroup;
+var loggedIn = 0;
 
 //Patient creator colour coding on click
 $("#manVsAutoBtnGroup").on('click', '.btn', function() {

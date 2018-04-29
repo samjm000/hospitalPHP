@@ -1,9 +1,4 @@
 <!--Session setup-->
-<?php
-ob_start();
-session_start();
-?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,6 +12,8 @@ session_start();
 <link  href="css/siteStyle.css" rel="stylesheet">
 <link  href="css/indexStyle.css" rel="stylesheet">
 <link  href="css/login.css" rel="stylesheet">
+<link  href="css/register.css" rel="stylesheet">
+<link  href="css/navbarStyle.css" rel="stylesheet">
 <!-- Scripts for checking simulation setup prior to launching -->
 <script src="js/startSimulationJS/startSimulationCheck.js"></script>
 <script src="js/globalVariables.js"></script>
@@ -27,7 +24,7 @@ session_start();
 <!-- NavBar Import--> 
 <?php include("navBar.php"); ?>
 <!-- Include DB handling PHP --> 
-<?php include("databasePHP/connectDB.php"); ?>
+
 <main>
    	<!-- Central Hospital Main Image--> 
     <div class="jumbotron backdrop"> 
@@ -39,17 +36,18 @@ session_start();
               <input type="text" placeholder="Username"/>
               <input type="text" placeholder="Password"/>
               <button>Login</button>
-              <p>Not Registered? <span>Sign Up</span></p>
+              <p>Not Registered? <span id="signUp">Sign Up</span></p>
             </div>
         </div>
     </div>
 </main>
 
 <!--  Bootstrap JavaScript -->
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js" integrity="sha256-Wp3wC/dKYQ/dCOUD7VUXXp4neLI5t0uUEF1pg0dFnAE=" crossorigin="anonymous"></script>
-
+<script src="js/navbarScript.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>
