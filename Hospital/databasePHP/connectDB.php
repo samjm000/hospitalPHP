@@ -16,7 +16,7 @@ static $conn;
 		}
 		mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 		$conn->set_charset("utf8mb4");
-		echo "Connected to DB successfully";	
+		//echo "Connected to DB successfully";	
 		return $conn;
 	}
 }
@@ -38,32 +38,43 @@ function addUser($user, $email, $password)
 
 function sendUserConfirmationEmail($user, $email, $password)
 {
-		require("/home/site/libs/PHPMailer-master/src/PHPMailer.php");
-  		require("/home/site/libs/PHPMailer-master/src/SMTP.php");
-
+	require_once("mailer/PHPMailer.php");
+	require_once("mailer/SMTP.php");
+  	require_once("mailer/POP3.php");
+  	require_once("mailer/Exception.php");
+  		
     $mail = new PHPMailer\PHPMailer\PHPMailer();
     $mail->IsSMTP(); // enable SMTP
-
+     $mail->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+        )
+    );
+     $mail->SMTPKeepAlive = true;   
+	$mail->Mailer = “smtp”;
     $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
     $mail->SMTPAuth = true; // authentication enabled
     $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "smtp.gmail.com";
-    $mail->Port = 465; // or 587
+    $mail->Host = 'smtp.gmail.com';
+    //$mail->Port = 587; // or 465
     $mail->IsHTML(true);
-    $mail->Username = "samjm001@gmail.com";
+    $mail->Username = 'samjm001@gmail.com';
     $mail->Password = "googlePOP23";
-    $mail->SetFrom("samuel.mcinerney@bsuh.nhs.uk");
+    $mail->SetFrom("samjm001@gmail.com");
     $mail->Subject = "Your registration with T.E.W.S was successful";
     $mail->Body = "Hello ".$user."\r\n\r\n".
 	    "Thanks for your registration with T.E.W.S \r\n".
 	    "Your username and password are: ".$user.", ".$password. " \r\n\r\n".
 	    "Kind Regards,\r\n".
 	    "Webmaster\r\n";
+	 $mail->AddAddress($email);
     
      if(!$mail->Send()) {
-        echo "Mailer Error: " . $mail->ErrorInfo;
+       $mailerError =  $mail->ErrorInfo;
      } else {
-        echo "Message has been sent";
+        $mailerError =  "Confirmation E-Mail has been sent";
      }
 
 }

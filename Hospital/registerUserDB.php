@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if($passedCheck>=1) {
     $namedError = "SUCCESSFULLY REGISTERED";
     $infoBox = "PLEASE LOG IN";
-    echo "add user to database with the following: $name, $email, $password";
+    //echo "add user to database with the following: $name, $email, $password";
     adduser($name,$email,$password);
   }
 

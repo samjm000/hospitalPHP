@@ -41,6 +41,7 @@
               <button type="submit" form="regForm" value="submit">Register</button>
               <p> <?php echo $namedError;?><br></p>
               <p> <?php echo $infoBox;?><br></p>
+              <p> <?php echo $mailerError;?><br></p>
 
             </div>
         </div>

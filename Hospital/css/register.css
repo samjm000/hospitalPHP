@@ -2,7 +2,8 @@
   width:400px;
   height:600px;
   position:absolute;
-  top:calc(50vh - 500px);
+  top:100px;
+  
   left:calc(50vw - 200px);
   overflow:hidden;
 }
