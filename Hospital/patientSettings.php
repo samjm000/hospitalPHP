@@ -24,6 +24,9 @@
       </section>
 <br>
 <br>
+<!--Automatic Panel-->
+
+<!-- Manual Panel -->
 <div class="row" id="manualPatientSetup">
 	<div class="row">
       <div class="col-sm-3"">
@@ -84,10 +87,6 @@
 
 </main>
 <script src="js/configureSimJS/patientCreator.js"></script> 
-<script src="js/configureSimJS/pageEffects.js"></script> 
-<link rel="stylesheet" href="js/jqueryUI/jquery-ui.min.css">
-<script src="js/jqueryUI/jquery-ui.min.js"></script>
-
-
+<script src="js/configureSimJS/settingsPageEffects.js"></script> 
 </body>
 </html>

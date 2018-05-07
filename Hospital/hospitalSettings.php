@@ -31,9 +31,6 @@ Simulation Running note
 <input type="bedNumber" id="bedNumber" class="form-control" placeholder="Relevant simulation note" required="" autofocus="" value="">
 
 <br><br>
-<button type="button" class="btn btn-secondary">Restore Default</button>
-<button type="button" class="btn btn-success">Accept Changes</button>
-
 </main>
 </body>
 </html>

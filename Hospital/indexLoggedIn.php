@@ -16,18 +16,17 @@
 
 </head>
 <body>
+<!-- NavBar Import--> 
 <?php 
 session_start();
-//echo  "Logged in as ".$_SESSION["username"];  
+echo  "Logged in as ".$_SESSION["username"];  
 if (isset($_SESSION['username']))
 {include("navBarLoggedIn.php");
 }
 else {
-	include("navBar.php");
-//header("Location: ../index.php");
+header("Location: ../index.php");
 }
 ?>
-
 
 <main>
    	<!-- Central Hospital Main Image--> 

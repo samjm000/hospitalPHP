@@ -14,11 +14,19 @@
           <li class="nav-item nav">
             <a class="nav-link" href="/about.php" id="aboutButton">About</a>
           </li>
-          <li class="nav-item nav" id="loginButton">
-            <a class="nav-link" href="/login.php">Log In</a>
+    
+         
+           <li class="nav-item " id="tewsSimButton">
+            <a class="nav-link" href="/configureSim.php">Start TEWS Simulator</a>
           </li>
-   
 
+             <li class="nav-item " id="tewsLiveButton">
+            <a class="nav-link" href="/startSimulation.php">Start TEWS Live</a>
+          </li>
+
+      <li class="nav-item nav" id="loginButton">
+            <a class="nav-link" href="/logOut.php">Log Out</a>
+          </li>
         </ul>
       </div>
     </nav>

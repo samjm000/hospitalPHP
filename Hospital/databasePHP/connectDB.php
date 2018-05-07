@@ -22,22 +22,29 @@ static $conn;
 }
 
 function confirmUser($user, $password) {
+  //echo "logging in";
 $con = connectToDB();
-$stmt = $con->prepare("SELECT * FROM user WHERE name = ? AND password = ?");
-$stmt->bind_param("si", $_POST['name'], $_POST['age']);
-$stmt->execute();
-if($stmt->affected_rows === 0) { 
- $loginError = "No user found, confirm details or register.";
- echo "No user found, confirm details or register.";
-  exit('No rows updated'); 
-  return 0;
+
+
+$stmt = $con->prepare("SELECT userID FROM user WHERE name = ? AND password = ?");
+$stmt->bind_param("ss", $user, $password);
+mysqli_stmt_execute($stmt); 
+mysqli_stmt_store_result($stmt); 
+$rows = mysqli_stmt_num_rows($stmt);
+//echo ($rows);
+if($rows==1) {
+  return 1;
+  $stmt->close();
+  $con->close();
 }
 else {
-  //echo "successfully logged in";
-  $loginError = "successfully logged in";
-  return 1;
+  return 0;
+  $stmt->close();
+  $con->close();
 }
-$stmt->close();
+
+
+
 }
 
 

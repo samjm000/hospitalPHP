@@ -8,7 +8,6 @@ $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
   });
 
-
 //Patient manual vs automatic creation buttons
 $(document).ready(function(){
     $("#automaticButton").click(function(){
@@ -34,7 +33,6 @@ $(document).ready(function(){
 var slider = document.getElementById("myRange");
 var output = document.getElementById("elapsedSlider");
 output.innerHTML = slider.value; // Display the default slider value
-
 // Update the current slider value (each time you drag the slider handle)
 slider.oninput = function() {
     output.innerHTML = this.value;
@@ -52,10 +50,8 @@ $("#ageButtonGroup").on('click', '.btn', function() {
 //Dynamic table creator
 function buildRow(patientList) {
   for (var i=0; i<patientList.length; i++) {
-  
-    //$("#card-body").animate({backgroundcolor: "#66ff99"}, 1500).animate({backgroundcolor: "fff"}, 1500);
-
-    var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
+   //$("#card-body").animate({backgroundcolor: "#66ff99"}, 1500).animate({backgroundcolor: "fff"}, 1500);
+   var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
     console.log("Replacement String:" + tableReplacement);
   }
   
@@ -64,5 +60,6 @@ function buildRow(patientList) {
   $("#patientListTableBody").append(tableReplacement);
   console.log("Patient added to table");
 };
+
 
 

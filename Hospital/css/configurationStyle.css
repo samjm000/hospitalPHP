@@ -4,32 +4,17 @@
 	padding-top: 2.5%;
 }
 
-/*
-.hospital {
-	
+.nav li a{
+  color:  #85929e ;
 }
-
-.realtime {
-	background-color: white;
-
+.nav li:hover a{
+   color: #0c55fd;
+  
 }
-.layout {
-	background-color: white;
-
+.nav li.active a {
+    color:  #0c55fd;
+    background:     #e9ecf1;
 }
-.patients {
-	background-color: white;
-
-}
-.overview {
-	background-color: white;
-
-}
-
-.whiteTextColour {
-	color: white;
-}
-*/
 
 /*Manage width of central patient Box
 */
@@ -88,4 +73,13 @@
     height: 25px;
     background: #4CAF50;
     cursor: pointer;
+}
+
+.bottomButtons {
+    padding-right: 40%;
+    float: right;
+}
+
+.restoreDefault {
+margin-right: 10px;
 }
