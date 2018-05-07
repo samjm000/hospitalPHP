@@ -25,7 +25,18 @@
 <br>
 <br>
 <!--Automatic Panel-->
-
+<div id="automaticPanel">
+<br>
+Patient creation engine<br><br>
+Select from the below frequency of admissions<br><br>
+<div id="autoBusyButtonGroup" class="btn-group">
+<a href="#" type="button" class="btn btn-primary">Slow</a>
+<a href="#" type="button" class="btn btn-secondary">Normal</a>
+<a href="#" type="button" class="btn btn-secondary">Busy</a>
+<a href="#" type="button" class="btn btn-secondary">Emergency</a>
+<br><br>
+</div>
+</div>
 <!-- Manual Panel -->
 <div class="row" id="manualPatientSetup">
 	<div class="row">

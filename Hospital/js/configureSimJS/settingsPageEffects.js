@@ -8,8 +8,15 @@ $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
   });
 
+//Patient creator colour coding on click
+$("#autoBusyButtonGroup").on('click', '.btn', function() {
+  $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
+  });
+
 //Patient manual vs automatic creation buttons
 $(document).ready(function(){
+    $("#automaticPanel").hide();
+
     $("#automaticButton").click(function(){
     	$("#manualPatientSetup").hide();
         $("#automaticPanel").fadeIn();

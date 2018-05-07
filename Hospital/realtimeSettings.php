@@ -11,9 +11,10 @@
 <br>
 Reatime Settings
 <br>
-<input type="name" id="inputname" class="form-control" placeholder="Hospital Name" required="" autofocus="">
+<input type="name" id="inputname" class="form-control" placeholder="Command Line" required="" autofocus="">
 <br>
-World Timing
+World Timing 
+<input type="name" id="inputname" class="form-control" placeholder="Drop down to be configured" required="" autofocus="">
 
 </main>
 

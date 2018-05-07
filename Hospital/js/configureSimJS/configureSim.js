@@ -15,6 +15,7 @@ $(document).ready(function(){
     });
     $("#previousSim").hide();
     $("#hospitalNav").click();
+    $("#continueSim").text("Continue");
 });
 //Patients
 
@@ -23,6 +24,7 @@ $(document).ready(function(){
         $("#mainBody").load("../patientSettings.php");
         window.continueSim=1;
         $("#previousSim").show();
+        $("#continueSim").text("Continue");
     });
 });
 
@@ -33,6 +35,7 @@ $(document).ready(function(){
       console.log("Continue SIm : " +window.continueSim);
         $("#mainBody").load("../realtimeSettings.php");
         $("#previousSim").show();
+        $("#continueSim").text("Continue");
        window.continueSim=2;
         
     });
@@ -93,7 +96,8 @@ function progressThroughSettings(direction) {
       }
       break;
        case 4: {
-            $("#overviewNav").click();
+          //redirect
+          $(location).attr('href', '../startSimulation.php');
       }
       break;
       default: {

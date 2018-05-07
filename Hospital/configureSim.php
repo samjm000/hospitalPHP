@@ -84,6 +84,7 @@ header("Location: ../index.php");
 <!--  Local JavaScript -->
 <script src="js/configureSimJS/configureSim.js"></script>
 <script src="js/configureSimJS/diagnosisEngine.js"></script>
+<script src="js/navbarScript.js"></script>
 
 </body>
 </html>

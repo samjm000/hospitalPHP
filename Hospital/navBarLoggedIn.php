@@ -21,7 +21,7 @@
           </li>
 
              <li class="nav-item " id="tewsLiveButton">
-            <a class="nav-link" href="/startSimulation.php">Start TEWS Live</a>
+            <a class="nav-link" href="/TEWSScreen.php">Start TEWS Live</a>
           </li>
 
       <li class="nav-item nav" id="loginButton">
