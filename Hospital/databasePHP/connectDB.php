@@ -32,19 +32,16 @@ mysqli_stmt_execute($stmt);
 mysqli_stmt_store_result($stmt); 
 $rows = mysqli_stmt_num_rows($stmt);
 //echo ($rows);
-if($rows==1) {
+  if($rows==1) {
   return 1;
   $stmt->close();
   $con->close();
-}
-else {
+  }
+  else {
   return 0;
   $stmt->close();
   $con->close();
-}
-
-
-
+  }
 }
 
 
@@ -100,7 +97,6 @@ function sendUserConfirmationEmail($user, $email, $password) {
      } else {
         $mailerError =  "Confirmation E-Mail has been sent";
      }
-
 }
 
 ?>

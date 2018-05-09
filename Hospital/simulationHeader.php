@@ -17,7 +17,7 @@
           </li>
 
            <li class="nav-item">
-            <a class="nav-link" href="">Exit</a>
+            <a class="nav-link" href="index.php">Exit</a>
           </li>
 
         </ul>

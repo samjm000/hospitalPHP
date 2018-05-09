@@ -11,7 +11,16 @@
 <link  href="css/siteStyle.css" rel="stylesheet">
 <link  href="css/simulationScreen.css" rel="stylesheet">
 <!-- Scripts for checking simulation setup prior to launching -->
-
+<?php 
+session_start();
+//echo  "Logged in as ".$_SESSION["username"];  
+if (isset($_SESSION['username']))
+{include("navBarLoggedIn.php");
+}
+else {
+include("navBar.php");
+}
+?>
 
 </head>
 
