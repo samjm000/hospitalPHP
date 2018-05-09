@@ -79,7 +79,6 @@ header("Location: ../index.php");
 <script src="js/jquery/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap/popper.min.js"></script>
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-
 <script src="js/jqueryUI/jquery-ui.min.js"></script>
 <!--  Local JavaScript -->
 <script src="js/configureSimJS/configureSim.js"></script>

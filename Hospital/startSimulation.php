@@ -5,13 +5,13 @@
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<!--bootstrap ect css  -->
+<link  href="css/bootstrap.min.css" rel="stylesheet">
+<link  href="css/bootstrap-grid.min.css" rel="stylesheet">
 <link  href="css/siteStyle.css" rel="stylesheet">
-<link  href="css/indexStyle.css" rel="stylesheet">
+<link  href="css/simulationScreen.css" rel="stylesheet">
 <!-- Scripts for checking simulation setup prior to launching -->
-<script src="js/startSimulationJS/startSimulationCheck.js"></script>
-<script src="js/globalVariables.js"></script>
+
 
 </head>
 
@@ -20,20 +20,44 @@
 <!-- Include DB handling PHP --> 
 <?php include("databasePHP/connectDB.php"); ?>
 
+<!--Grid System -->
+<div class="gridBox"> 
+<div class="container-fluid border">
 <div class="border row">
-  <div class="border col-lg-3">Total in Department </div>
+ 	<div class="border col-6 patientListTitle" >Patient List 
+ 		<div class="row">
+ 			<div class="border col-1 patientList">No</div>
+		 	<div class="border col-5 patientList">Patient ID.</div>
+ 			<div class="border col-5 patientList">Patient Time In Dept.</div>
+ 			<div class="border col-1 patientList">A:D</div>
+		</div>
+ 	</div>
   		
-  		<div class="border col-lg-6">Likely Admissions</div>
+	 <div class="border col-lg-6 admissionsTitle">EXPECTED ADMISSIONS
+   		<div class="row"><p id="admissionsText"class="admissionsNumber">0</p></div>
+ 	</div>
+</div>
+<br>
+</div>
+</div>
+<!--.row-->
+
+<div id="timeLine"> 
+  <div id="timeBar"></div>
+</div>
+<p>Timeline </p>
 
 
-  <div class="border col-lg-3">Details</div>
-</div><!--.row-->
 
 
-<!--  Bootstrap JavaScript -->
- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.min.js" integrity="sha256-Wp3wC/dKYQ/dCOUD7VUXXp4neLI5t0uUEF1pg0dFnAE=" crossorigin="anonymous"></script>
+
+<!--  Bootstrap ect. JavaScript -->
+<script src="js/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="js/jqueryUI/jqueryColour.min.js"></script>
+<!--  Local JavaScript -->
+<script src="js/configureSimJS/simulationScreen.js"></script>
+
 </body>
 </html>

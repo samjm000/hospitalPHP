@@ -1,0 +1,38 @@
+.gridBox {
+	border: 1px solid grey;
+	height: 800px;
+}
+.admissionsNumber {
+	font-size: 6em;
+	text-align: center;
+	text-align-last: center;
+	background-color:lightcyan;
+	width: 100%;
+}
+
+.admissionsTitle {
+	font-size: 2em;
+	text-align: center;
+}
+
+.patientListTitle {
+	font-size: 2em;
+	text-align: left;
+}
+.patientList {
+	font-size: 0.5em;
+	text-align: left;
+}
+
+/*/timeline*/
+
+#timeLine {
+    width: 100%;
+    background-color: lightcyan;
+}
+#timeBar {
+    width: 0%;
+    height: 30px;
+    background-color: lightgreen;
+}
+
