@@ -12,13 +12,12 @@ $(document).ready(function(){
     $("#hospitalNav").click(function(){
         $("#mainBody").load("../hospitalSettings.php");
         window.continueSim=0;
+        $("#previousSim").hide();
+        $("#continueSim").text("Continue");
     });
-    $("#previousSim").hide();
     $("#hospitalNav").click();
-    $("#continueSim").text("Continue");
 });
 //Patients
-
 $(document).ready(function(){
     $("#patientsNav").click(function(){
         $("#mainBody").load("../patientSettings.php");
@@ -37,7 +36,6 @@ $(document).ready(function(){
         $("#previousSim").show();
         $("#continueSim").text("Continue");
        window.continueSim=2;
-        
     });
 });
 
@@ -67,7 +65,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#previousSim").click(function(){
-    	
         if(window.continueSim>0)  {
         window.continueSim--;
         progressThroughSettings(0);
