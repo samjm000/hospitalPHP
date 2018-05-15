@@ -6,9 +6,14 @@ $(".nav a").on("click", function() {
   $(this).parent().addClass("active");
 });
 
-
 //Hospital
 $(document).ready(function(){
+
+  $(".nav a").on("click", function() {
+  $(".nav").find(".active").removeClass("active");
+  $(this).parent().addClass("active");
+  });
+
     $("#hospitalNav").click(function(){
         $("#mainBody").load("../hospitalSettings.php");
         window.continueSim=0;

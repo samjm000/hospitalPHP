@@ -21,10 +21,7 @@ Triage Early Warning System Simulation Type
 <input type="simType" id="simName" class="form-control" placeholder="Sim Type " required="" autofocus="" value="Warning System">
 <br>
 <br>
-Number of Beds in Simulation
-<br>
-<input type="bedNumber" id="bedNumber" class="form-control" placeholder="bedNumber" required="" autofocus="" value="25">
-<br>
+
 <br>
 Simulation Running note
 <br>
