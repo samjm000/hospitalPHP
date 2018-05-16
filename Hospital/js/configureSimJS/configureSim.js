@@ -1,18 +1,20 @@
 //SIDE NAVIGATION METHODS
 var continueSim;
 
-$(".nav a").on("click", function() {
+$("#sideNav .nav a").on("click", function() {
   $(".nav").find(".active").removeClass("active");
   $(this).parent().addClass("active");
 });
 
-//Hospital
-$(document).ready(function(){
-
-  $(".nav a").on("click", function() {
+/*
+$(".nav a").on("click", function() {
   $(".nav").find(".active").removeClass("active");
   $(this).parent().addClass("active");
-  });
+});
+*/
+
+//Hospital
+$(document).ready(function(){
 
     $("#hospitalNav").click(function(){
         $("#mainBody").load("../hospitalSettings.php");

@@ -34,7 +34,7 @@ header("Location: ../index.php");
    
 <div class="container-fluid">
     <div class="row navBarGap">
-        <nav class="col-md-2 d-none d-md-block sidebar">
+        <nav class="col-md-2 d-none d-md-block sidebar" id="sideNav">
           <div class="sidebar-sticky ">
             <ul class="nav flex-column ">
               <li class="nav-item active">

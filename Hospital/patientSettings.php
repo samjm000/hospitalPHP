@@ -30,10 +30,10 @@
 Patient creation engine<br><br>
 Select from the below frequency of admissions<br><br>
 <div id="autoBusyButtonGroup" class="btn-group">
-<a href="#" type="button" class="btn btn-primary">Slow</a>
-<a href="#" type="button" class="btn btn-secondary">Normal</a>
-<a href="#" type="button" class="btn btn-secondary">Busy</a>
-<a href="#" type="button" class="btn btn-secondary">Emergency</a>
+<a href="#" type="button" class="btn btn-primary" id="slowA&E">Slow</a>
+<a href="#" type="button" class="btn btn-secondary" id="normalA&E">Normal</a>
+<a href="#" type="button" class="btn btn-secondary" id="busyA&E">Busy</a>
+<a href="#" type="button" class="btn btn-secondary" id="EmergencyA&E">Emergency</a>
 <br><br>
 </div>
 </div>

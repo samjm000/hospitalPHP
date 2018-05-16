@@ -6,6 +6,7 @@ var eNoteTrimmed;
 var diagnosis;
 var arrivalTime;
 var patientList =[];
+var simBusyStatus=0;
 
 //Constructor for Patient
 function Patient(age, eNote, diagnosis, arrivalTime) {
@@ -47,6 +48,8 @@ $("#createPatientButton").on('click', function() {
     buildRow(patientList);
   });
 
+
+//Set Automatic Engine cookies 
 
 
 
