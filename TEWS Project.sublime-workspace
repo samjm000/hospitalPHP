@@ -223,41 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
-			"settings":
-			{
-				"buffer_size": 86,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
-			"settings":
-			{
-				"buffer_size": 770,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
-			"settings":
-			{
-				"buffer_size": 2422,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
-			"settings":
-			{
-				"buffer_size": 184,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -291,20 +256,19 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS"
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital"
 	],
 	"file_history":
 	[
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/overviewSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/patientCreator.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/patientSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/realtimeSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/realtimeSettings.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/configureSim.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/diagnosisEngine.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/configureSim.php",
@@ -423,9 +387,7 @@
 		"/C/Users/Sam/Desktop/PACEUP/pace_phri/paceup (5).sql",
 		"/C/Users/Sam/Desktop/PACEUP/pace_phri/description of files in PACE web app.xlsx",
 		"/C/php/php.ini",
-		"/C/Users/Sam/AppData/Local/Temp/Temp1_openssl-1.0.2j-fips-x86_64.zip/OpenSSL/README",
-		"/F/PHP/php-7.1.2-Win32-VC14-x86/php.ini",
-		"/F/PHP/php.ini-production"
+		"/C/Users/Sam/AppData/Local/Temp/Temp1_openssl-1.0.2j-fips-x86_64.zip/OpenSSL/README"
 	],
 	"find":
 	{
@@ -509,127 +471,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 86,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								770,
-								770
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								855,
-								855
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 184,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								184,
-								184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
