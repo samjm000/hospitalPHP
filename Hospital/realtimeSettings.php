@@ -9,14 +9,20 @@
 <body>
 <main>
 <br>
-Reatime Settings
-<br>
-<input type="name" id="inputname" class="form-control" placeholder="Command Line" required="" autofocus="">
-<br>
-World Timing 
-<input type="name" id="inputname" class="form-control" placeholder="Drop down to be configured" required="" autofocus="">
+<h3>Select speed of simulation </h3>
+
+    	<div id="speedButtons" class="btn-group btn-group-lg">
+  		<button id ="speed1" type="button" class="btn btn-primary ">Normal</button>
+  		<button id="speed2" type="button" class="btn btn-secondary">Fast</button>
+  		<button id="speed3" type="button" class="btn btn-secondary">Very Fast</button>
+		</div> 
+		<br><br>
 
 </main>
-
+<script src="js/configureSimJS/realtimeSettings.js"></script> 
 </body>
 </html>
+
+
+
+

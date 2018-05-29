@@ -1,21 +1,15 @@
 //SIDE NAVIGATION METHODS
 var continueSim;
+var hospitalName="Royal Sussex County Hospital";
+var simType="TriageWarning";
 
 $("#sideNav .nav a").on("click", function() {
   $(".nav").find(".active").removeClass("active");
   $(this).parent().addClass("active");
 });
 
-/*
-$(".nav a").on("click", function() {
-  $(".nav").find(".active").removeClass("active");
-  $(this).parent().addClass("active");
-});
-*/
-
 //Hospital
 $(document).ready(function(){
-
     $("#hospitalNav").click(function(){
         $("#mainBody").load("../hospitalSettings.php");
         window.continueSim=0;
@@ -79,7 +73,7 @@ $(document).ready(function(){
 	});    
 });
 
-
+//store relevant page data on click
 function progressThroughSettings(direction) {
 		//console.log("Firing direction change with direction of "+direction+" and page loc of" +window.continueSim);
 	  switch(window.continueSim) {

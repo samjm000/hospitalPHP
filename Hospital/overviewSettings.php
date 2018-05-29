@@ -8,20 +8,25 @@
 </head>
 <body>
 <main>
+<h3>Overview of simulation settings </h3>
+Hospital name
 <br>
-Overview
+<input type="name" id="hospitalName" class="form-control" placeholder="Hospital Name" required="" autofocus="">
 <br>
-<input type="name" id="inputname" class="form-control" placeholder="Hospital Name" required="" autofocus="">
+Patient Creation Mode
 <br>
-Hospital Set
+<input type="name" id="patientCreationMode" class="form-control" placeholder="Patient Creation Mode" required="" autofocus="">
 <br>
-Patients Set
+Patient Count
 <br>
-Realtime 
+<input type="name" id="patientNumber" class="form-control" placeholder="Patient Count" required="" autofocus="">
 <br>
-Progress to Start Sim <br>
+Realtime Speed
+<br>
+<input type="name" id="realtimeSpeed" class="form-control" placeholder="Realtime Speed" required="" autofocus="">
+<br>
 
 </main>
-
+<script src="js/configureSimJS/overviewSettings.js"></script> 
 </body>
 </html>

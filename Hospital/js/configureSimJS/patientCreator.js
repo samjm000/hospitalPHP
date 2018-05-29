@@ -45,6 +45,9 @@ $("#createPatientButton").on('click', function() {
     arrivalTime = $("#myRange").val();
     var patient = new Patient(ageGroup,eNoteTrimmed,diagnosis,arrivalTime);
     patientList.push(patient);
+    //consider pushing to DB 
+
+    //save to temporary table for use 
     buildRow(patientList);
   });
 

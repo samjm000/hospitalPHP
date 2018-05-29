@@ -13,21 +13,17 @@
 <p>Used to save simulation outcome and generate feedback data </p>
 Hospital Name
 <br>
-<input type="name" id="inputName" class="form-control" placeholder="Hospital Name" required="" autofocus="" value="Royal Sussex County">
+<input type="name" id="hospitalName" class="form-control" placeholder="Hospital Name" required="" autofocus="" value="Royal Sussex County Hospital">
 <br>
 <br>
-Triage Early Warning System Simulation Type
+Simulation Type
 <br>
-<input type="simType" id="simName" class="form-control" placeholder="Sim Type " required="" autofocus="" value="Warning System">
-<br>
+<input type="name" id="simName" class="form-control" placeholder="Sim Type " required="" autofocus="" value="Triage warning">
 <br>
 
-<br>
-Simulation Running note
-<br>
-<input type="bedNumber" id="bedNumber" class="form-control" placeholder="Relevant simulation note" required="" autofocus="" value="">
 
 <br><br>
 </main>
+<script src="js/configureSimJS/hospitalSettings.js"></script>
 </body>
 </html>

@@ -1,0 +1,722 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hos",
+				"hospitalSettings"
+			],
+			[
+				"speed",
+				"speedSetting"
+			],
+			[
+				"stop",
+				"stopTimeBar"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"al",
+				"align-content\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"session",
+				"session_destroy"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"c",
+				"continueSim"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"con",
+				"continueSim"
+			],
+			[
+				"over",
+				"overviewSettings"
+			],
+			[
+				"cin",
+				"continueSim"
+			],
+			[
+				"pro",
+				"progressThroughSettings"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"manua",
+				"manualPatientSetup"
+			],
+			[
+				"btn",
+				"btn"
+			],
+			[
+				"ha",
+				"hasClass"
+			],
+			[
+				"age",
+				"ageButtonGroup"
+			],
+			[
+				"create",
+				"createPatientButton"
+			],
+			[
+				"btn-",
+				"btn-primary"
+			],
+			[
+				"a",
+				"age"
+			],
+			[
+				"dia",
+				"diagnosisCreator"
+			],
+			[
+				"che",
+				"startSimulationCheck"
+			],
+			[
+				"lef",
+				"margin-left"
+			],
+			[
+				"po",
+				"background-position"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"butt",
+				"buttonSpacer"
+			],
+			[
+				"incom",
+				"Incoming"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ba",
+				"baseline-shift"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"backgro",
+				"background-blend-mode"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"old",
+				"oldSteps"
+			],
+			[
+				"da",
+				"date_read"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"sql_qu",
+				"sql_query"
+			],
+			[
+				"sql_",
+				"sql_query"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
+			"settings":
+			{
+				"buffer_size": 86,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
+			"settings":
+			{
+				"buffer_size": 770,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
+			"settings":
+			{
+				"buffer_size": 2422,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
+			"settings":
+			{
+				"buffer_size": 184,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS"
+	],
+	"file_history":
+	[
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/overviewSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/patientCreator.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/patientSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/realtimeSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/realtimeSettings.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/configureSim.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/diagnosisEngine.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/configureSim.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/methodology.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/simulationScreen.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/objectives.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/startSimulation.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/databasePHP/connectDB.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/simulationHeader.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/simulationScreen.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/navBarLoggedIn.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/indexLoggedIn.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/about.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/logOut.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/TEWSScreen.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/configurationStyle.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/pageEffects.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/login.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/index.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/jqueryUI/jqueryColour.min.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/bootstrap/popper.min.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/jquery/jquery-3.3.1.min.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/loginUserDB.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/navBar.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/navbarScript.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/accessControl.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/registerUser.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/login.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/register.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/registerUserDB.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/aboutPage.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/login.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/credits.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/navbarStyle.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/simulationScreen.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/indexStyle.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/dashboard.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/monitor.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/theProject.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/startSimulationJS/startSimulationCheck.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/incomingPatients.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/siteStyle.css",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/jqueryUI/jquery-ui.min.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/jqueryUI/jquery-ui.min.css",
+		"/C/Users/Sam/AppData/Roaming/Sublime Text 3/Packages/User/JSC.sublime-build",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/globalVariables.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/startSimulationJS/startSimulationCheck.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/navBar.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/incomingPatients.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/index.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/databasePHP/connectDB.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/patientCreation/incomingPatient.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/databaseJS/connectDB.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/siteStyle.css",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/indexStyle.css",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/incomingPatient.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/incomingPatientsStyle.css",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/monitor.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/summary.php",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/summaryStyle.css",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/jumbo.css",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/js/bedMonitor/monitor.js",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/images/hospitalBackdrop.jpg",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/css/indexStyle.scss",
+		"/C/Users/Sam/Desktop/Code/Work/Hospital/scss/indexStyle.css",
+		"/C/Users/Sam/Desktop/Bitcoin mining/start.bat",
+		"/C/Users/Sam/Desktop/Bitcoin mining/miner.cfg",
+		"/C/Users/Sam/AppData/Local/Temp/Temp1_bootstrap-4.0.0-beta.2.zip/bootstrap-4.0.0-beta.2/assets/css/docs.min.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_session.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_deleteReading.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/returnWeek.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/login.js",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/updateTarget.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/updateTargetAuto.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/login.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/database.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_init.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/get_json_encode.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/database.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/getWeek.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_amendReading.php",
+		"/C/Users/Sam/Desktop/mobile_test.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_amendReadings.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_test.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_deleteReading.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_getReadings.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_returnWeek.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/returnWeek.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-3/mobile_deleteReading.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-3/mobile_login.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/addPractice.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/setBaseline.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_addReading.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_addReading.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/main_index.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_getReadings.php",
+		"/C/Users/Sam/Desktop/Code/DatePickerDialogTheme-Android-Examples.com/src/com/datepickerdialogtheme_android_examples/com/MainActivity.java",
+		"/C/Users/Sam/Desktop/Code/ListView Example Java/AllTheRecipes-Starter/app/src/main/java/com/raywenderlich/alltherecipes/Recipe.java",
+		"/C/Users/Sam/Desktop/Code/DatePickerDialogTheme-Android-Examples.com/gen/android/support/v7/appcompat/R.java",
+		"/C/Users/Sam/Desktop/Code/Java-Cheatsheet.pdf",
+		"/C/Users/Sam/Desktop/.htaccess",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-3/main_index.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-3/sessions.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-3/database.php",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_init.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/User details",
+		"/C/Users/Sam/AppData/Local/Temp/fz3temp-2/mobile_login.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup for import.sql",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup (8).sql",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/paceup/mobile_register.php",
+		"/C/Program Files (x86)/Ampps/www/pace_phri/README.md",
+		"/C/Users/Sam/Desktop/PACEUP/pace_phri/getUserReadings.php",
+		"/C/Users/Sam/Desktop/PACEUP/pace_phri/weekone.docx",
+		"/C/Users/Sam/Desktop/PACEUP/pace_phri/README.md",
+		"/C/Users/Sam/Desktop/PACEUP/pace_phri/paceup (5).sql",
+		"/C/Users/Sam/Desktop/PACEUP/pace_phri/description of files in PACE web app.xlsx",
+		"/C/php/php.ini",
+		"/C/Users/Sam/AppData/Local/Temp/Temp1_openssl-1.0.2j-fips-x86_64.zip/OpenSSL/README",
+		"/F/PHP/php-7.1.2-Win32-VC14-x86/php.ini",
+		"/F/PHP/php.ini-production"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\Program Files (x86)\\Ampps\\www\\pace_phri\\paceup",
+			"<open folders>",
+			"D:\\Xampp\\htdocs\\Open-Labyrinth-master\\www"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"col",
+			";\n",
+			"login",
+			"succes",
+			"echo",
+			"added",
+			"jquery",
+			"pageEffects.js",
+			"\n.",
+			"\n  \t\t\t",
+			"List",
+			">\n",
+			"\">",
+			" >",
+			"75",
+			">\n",
+			"\t<",
+			"78px",
+			"update",
+			"returnWeek",
+			"return",
+			"returnWeek",
+			"calcTarget",
+			"calctarget",
+			"<?",
+			"calcTarget",
+			"field",
+			"colour",
+			"col",
+			"time",
+			"ssl",
+			"extension=php_openssl.dll",
+			"openssl",
+			"system settings",
+			"no database",
+			"No database selected",
+			"populate",
+			"$link",
+			"link",
+			"populateDatabase",
+			"mysql",
+			"mysql_",
+			"mysql",
+			"form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mysqli_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								770
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								855,
+								855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 190.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/JSC.sublime-build",
+	"project": "TEWS Project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
