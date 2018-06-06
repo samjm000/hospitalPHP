@@ -1,7 +1,7 @@
 
 //PATIENT CREATOR CONFIGURATION
 
-//Page Variables
+//GLOBSLSS   - RMOVE Page Variables
 var eNoteTrimmed;
 var diagnosis;
 var arrivalTime;
@@ -55,20 +55,23 @@ $("#createPatientButton").on('click', function() {
 
 //Set Automatic Engine cookies 
 
-$("#slowA&E").on('click', function() { 
+$(document).ready(function(){
+  //local variables for page
+  
+$("#slowAE").on('click', function() { 
   simBusyStatus=0;
-  document.cookie = "simBusyStatus="+simBusyStatus;
-};
-$("#normalA&E").on('click', function() { 
+ document.cookie = "simBusyStatus="+simBusyStatus;
+});
+$("#normalAE").on('click', function() { 
   simBusyStatus=1;
   document.cookie = "simBusyStatus="+simBusyStatus;
-};
-$("#busyA&E").on('click', function() { 
+});
+$("#busyAE").on('click', function() { 
   simBusyStatus=2;
   document.cookie = "simBusyStatus="+simBusyStatus;
-};
-$("#emergencyA&E").on('click', function() { 
+});
+$("#emergencyAE").on('click', function() { 
   simBusyStatus=3;
   document.cookie = "simBusyStatus="+simBusyStatus;
-};
-
+});
+});

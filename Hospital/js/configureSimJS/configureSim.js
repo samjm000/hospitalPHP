@@ -46,17 +46,17 @@ $(document).ready(function(){
   });
   //Continue button function
   $("#continueSim").click(function(){
-    console.log(window.continueSim);
+    console.log(continueSim);
     if(!continueSim>3)  {}
     else {
       continueSim++;
-      progressThroughSettings(1);
+      progressThroughSettings(continueSim);
     }
   });
   $("#previousSim").click(function(){
     if(continueSim>0)  {
     continueSim--;
-    progressThroughSettings(0);
+    progressThroughSettings(continueSim);
     }
   });    
   //start at hospital page on page load
@@ -65,7 +65,7 @@ $(document).ready(function(){
 });
 
 //store relevant page data on click
-function progressThroughSettings(direction) {
+function progressThroughSettings(continueSim) {
   switch(continueSim) {
     case 0: { $("#hospitalNav").click();
       }

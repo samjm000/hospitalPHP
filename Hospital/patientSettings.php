@@ -30,10 +30,10 @@
 Patient creation engine<br><br>
 Select from the below frequency of admissions<br><br>
 <div id="autoBusyButtonGroup" class="btn-group">
-<a href="#" type="button" class="btn btn-primary" id="slowA&E">Slow</a>
-<a href="#" type="button" class="btn btn-secondary" id="normalA&E">Normal</a>
-<a href="#" type="button" class="btn btn-secondary" id="busyA&E">Busy</a>
-<a href="#" type="button" class="btn btn-secondary" id="EmergencyA&E">Emergency</a>
+<a href="#" type="button" class="btn btn-primary" id="slowAE">Slow</a>
+<a href="#" type="button" class="btn btn-secondary" id="normalAE">Normal</a>
+<a href="#" type="button" class="btn btn-secondary" id="busyAE">Busy</a>
+<a href="#" type="button" class="btn btn-secondary" id="EmergencyAE">Emergency</a>
 <br><br>
 </div>
 </div>
@@ -43,8 +43,8 @@ Select from the below frequency of admissions<br><br>
       <div class="col-sm-3"">
       	<div id="manualPanel" class="card bg-light manualLeftBlock" style="width: 18rem">
   <div id="cardBodyLeft" class="card-body">
-  	<br><br>
-    <h5 class="card-title">Patient Blueprint</h5>
+    <h3>Patient Blueprint</h3>
+    <p> Age Group</p>
     <p class="card-text"> 
       <!-- AGE -->
     	<div id="ageButtonGroup" class="btn-group btn-group-sm">
@@ -55,14 +55,12 @@ Select from the below frequency of admissions<br><br>
 		<br><br>
     <!-- NEWS SCORE -->
     <div class="slidecontainer">
-        <input type="range" min="0" max="11" value="0" id="newsRange">
-           <p><span id="newsScore"></span> MEWS Score</p>
+        <p>MEWS Score <span id="newsScore"></span></p>
+        <input type="range" min="0" max="11" value="0" id="newsRange">        
       </div>
-
-    <br><br>
-    	 <div class="form-group">
-  		<label for="comment">E-Notes:</label>
-  		<textarea class="form-control" rows="5" id="e-note"></textarea>
+   <div class="form-group">
+  	   <label for="comment">E-Notes:</label>
+  		<textarea class="form-control" rows="3" id="e-note"></textarea>
 		</div> 
     <p> Preview Admission Probability</p>
 		<textarea class="form-control" rows="1" id="diagnosis" readonly ></textarea>
