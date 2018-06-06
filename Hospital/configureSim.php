@@ -8,7 +8,7 @@
 <!--bootstrap ect css  -->
 <link  href="css/bootstrap.min.css" rel="stylesheet">
 <link  href="css/bootstrap-grid.min.css" rel="stylesheet">
-<link rel="stylesheet" href="js/jqueryUI/jquery-ui.min.css">
+<link  href="js/jqueryUI/jquery-ui.min.css" rel="stylesheet">
 <!--local css  -->
 <link  href="css/siteStyle.css" rel="stylesheet">
 <link  href="css/indexStyle.css" rel="stylesheet">
@@ -80,7 +80,6 @@ header("Location: ../index.php");
 <script src="js/bootstrap/popper.min.js"></script>
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/jqueryUI/jquery-ui.min.js"></script>
-<!--  Local JavaScript -->
 <script src="js/configureSimJS/configureSim.js"></script>
 <script src="js/configureSimJS/diagnosisEngine.js"></script>
 <script src="js/navbarScript.js"></script>

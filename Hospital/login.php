@@ -31,7 +31,7 @@
           <div class="box">
             <h1>Login</h1>
               <input type="text" placeholder="Username" name="username"/>
-              <input type="text" placeholder="Password" name ="password"/>
+              <input type="password" placeholder="Password" name ="password"/>
               <button type="submit" form="loginForm" value="submit">Login</button>
               <p>Not Registered? <span id="signUp">Sign Up</span></p>
               <p><?php echo $loginError;?> </p> 

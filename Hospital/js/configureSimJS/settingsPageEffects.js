@@ -1,6 +1,6 @@
 //# sourceURL=pageEffects.js';
 //variables
-var ageGroup;
+var ageGroup=2;
 var loggedIn = 0;
 
 //Patient creator colour coding on click
@@ -36,7 +36,17 @@ $(document).ready(function(){
 
 });
 
-//slider 
+//NEWS Slide 
+var newsSlider = document.getElementById("newsRange");
+var newsOutput = document.getElementById("newsScore");
+newsOutput.innerHTML = newsSlider.value; // Display the default slider value
+// Update the current slider value (each time you drag the slider handle)
+newsSlider.oninput = function() {
+    newsOutput.innerHTML = this.value;
+} 
+
+
+//Arrival time slider 
 var slider = document.getElementById("myRange");
 var output = document.getElementById("elapsedSlider");
 output.innerHTML = slider.value; // Display the default slider value

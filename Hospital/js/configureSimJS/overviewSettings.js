@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-    $("#hospitalName").value() = "TBC";
+    $("#hospitalName").text("TBC");
 
   
 });

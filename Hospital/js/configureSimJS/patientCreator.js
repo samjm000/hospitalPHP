@@ -9,8 +9,9 @@ var patientList =[];
 var simBusyStatus=0;
 
 //Constructor for Patient
-function Patient(age, eNote, diagnosis, arrivalTime) {
+function Patient(age, newsScore, eNote, diagnosis, arrivalTime) {
     this.age = age;
+    this.newsScore = newsScore;
     this.eNote = eNote;
     this.diagnosis = diagnosis;
     this.arrivalTime = arrivalTime;

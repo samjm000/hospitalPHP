@@ -46,16 +46,25 @@ Select from the below frequency of admissions<br><br>
   	<br><br>
     <h5 class="card-title">Patient Blueprint</h5>
     <p class="card-text"> 
+      <!-- AGE -->
     	<div id="ageButtonGroup" class="btn-group btn-group-sm">
   		<button id ="1" type="button" class="btn btn-secondary ">Under 45</button>
-  		<button id="2" type="button" class="btn btn-secondary">45 - 75</button>
+  		<button id="2" type="button" class="btn btn-primary">45 - 75</button>
   		<button id="3" type="button" class="btn btn-secondary">Over 75</button>
 		</div> 
-		<br> <br>
+		<br><br>
+    <!-- NEWS SCORE -->
+    <div class="slidecontainer">
+        <input type="range" min="0" max="11" value="0" id="newsRange">
+           <p><span id="newsScore"></span> MEWS Score</p>
+      </div>
+
+    <br><br>
     	 <div class="form-group">
   		<label for="comment">E-Notes:</label>
   		<textarea class="form-control" rows="5" id="e-note"></textarea>
-		</div> Preview Diagnosis</p>
+		</div> 
+    <p> Preview Admission Probability</p>
 		<textarea class="form-control" rows="1" id="diagnosis" readonly ></textarea>
 		<br>
 		<p>Elapsed time to arrival:</p>
