@@ -36,9 +36,10 @@ include("navBar.php");
  	<div class="border col-6 patientListTitle" >Patient List 
  		<div class="row">
  			<div class="border col-1 patientList">No</div>
-		 	<div class="border col-5 patientList">Patient ID.</div>
- 			<div class="border col-5 patientList">Patient Time In Dept.</div>
- 			<div class="border col-1 patientList">A:D</div>
+		 	<div class="border col-3 patientList">Patient ID</div>
+ 			<div class="border col-3 patientList">Time In Dept</div>
+ 			<div class="border col-2 patientList">MEWS</div>
+ 			<div class="border col-3 patientList">Admission</div>
 		</div>
  	</div>
   		

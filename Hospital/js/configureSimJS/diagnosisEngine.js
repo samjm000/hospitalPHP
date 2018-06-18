@@ -1,26 +1,26 @@
 //Admission Engine
 //Takes e-Note and creates diagnosis based on values
 
-
 function eNoteTextProcessor (eText, mewsScore) {
     console.log("Running with :" +eText+ " and "+ mewsScore);
     var admissionProbability;
-	var this.eText = eText.toUpperCase();
-    var this.mewsScore = mewsScore;
-	
+	eText = eText.toUpperCase();
     //come up with a clever way of utlizing search strings
-	if(text.includes("MEDICALLY EXPECTED")) {
+	if(eText.includes("MEDICALLY EXPECTED")) {
         admissionProbability=100;
         return admissionProbability;
     }
-    if(text.includes("AAA")) {
+    if(eText.includes("AAA")) {
         admissionProbability=100;
         return admissionProbability;
     }
 
+    console.log(mewsScore);
+
     //if not admitted via text, use MEWS
-	switch (mewsScore) {
+	switch (+mewsScore) {
     case 11:
+    console.log("At 11");
         admissionProbability = 100;
         break;
     case 10:
@@ -53,8 +53,12 @@ function eNoteTextProcessor (eText, mewsScore) {
     case 1:
         admissionProbability = 0;
     break;
-    default:
+    case 0:
         admissionProbability = 0;
+    break;
+    default:
+    break;
     }
+    console.log(admissionProbability);
 	return admissionProbability;
 }

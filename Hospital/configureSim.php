@@ -80,8 +80,8 @@ header("Location: ../index.php");
 <script src="js/bootstrap/popper.min.js"></script>
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/jqueryUI/jquery-ui.min.js"></script>
-<script src="js/configureSimJS/configureSim.js"></script>
-<script src="js/configureSimJS/diagnosisEngine.js"></script>
+<script src="js/configureSimJS/configureSim.js"></script> 
+<script src="js/configureSimJS/diagnosisEngine.js"></script> 
 <script src="js/navbarScript.js"></script>
 
 </body>

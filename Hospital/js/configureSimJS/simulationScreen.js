@@ -2,6 +2,19 @@
 var minutes=0;
 var simStatus =0;
 
+// To be done
+/*
+
+import patient list array from system storage
+load patient list into timer array
+when patient matches timer delta - fire patient into system
+
+click on patient to trigger menu
+admit / vs discharge
+store list on lower bar - all admission /discharges
+option to restore - continue clock
+*/
+
 //Nav highlighting
 $(".nav a").on("click", function() {
   $(".nav").find(".active").removeClass("active");

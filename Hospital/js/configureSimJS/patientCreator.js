@@ -25,9 +25,8 @@ mewsOutput.innerHTML = mewsSlider.value; // Display the default slider value
 // Update the current slider value (each time you drag the slider handle)
 mewsSlider.oninput = function() {
     mewsOutput.innerHTML = this.value;
-    $("#probability").val(eNoteTextProcessor($("#e-note").val(),$("#mewsRange").val()));
+   // $("#probability").val(eNoteTextProcessor($("#e-note").val(),$("#mewsRange").val()+" %"));
 } 
-
 
 //Update Admission probability with E-Note changes, set subsequent variables
 $("#e-note").bind('input propertychange', function() {
