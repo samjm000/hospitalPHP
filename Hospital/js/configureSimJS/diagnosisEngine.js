@@ -1,31 +1,60 @@
-//Diagnosis Engine
+//Admission Engine
 //Takes e-Note and creates diagnosis based on values
 
 
-function calculateDiagnosis (enote) {
-	console.log("Calculating diagnosis from this string")
-	var diagnosis;
-	var searchString = enote.toUpperCase();
+function eNoteTextProcessor (eText, mewsScore) {
+    console.log("Running with :" +eText+ " and "+ mewsScore);
+    var admissionProbability;
+	var this.eText = eText.toUpperCase();
+    var this.mewsScore = mewsScore;
+	
+    //come up with a clever way of utlizing search strings
+	if(text.includes("MEDICALLY EXPECTED")) {
+        admissionProbability=100;
+        return admissionProbability;
+    }
+    if(text.includes("AAA")) {
+        admissionProbability=100;
+        return admissionProbability;
+    }
 
-	//come up with a clever way of utlizing search strings
-	if(searchString.includes("SOB")) {
-		diagnosis = "Pneumonia";	
-	}
-
-	if(searchString.includes("CHEST PAIN")) 	{
-		diagnosis = "Non Specific chest pain";		
-	}
-
-	if(searchString.includes("CHEST PAIN")&&searchString.includes("SOB")) 	{
-		diagnosis = "NSTEMI";		
-	}
-	if(searchString.includes("PAIN")&&!searchString.includes("CHEST")) 	{
-		diagnosis = "MSK Pain";		
-	}
-
-	if(!diagnosis) {
-		diagnosis="Unknown";
-	}
-	return diagnosis;
-
+    //if not admitted via text, use MEWS
+	switch (mewsScore) {
+    case 11:
+        admissionProbability = 100;
+        break;
+    case 10:
+        admissionProbability = 100;
+        break;
+    case 9:
+        admissionProbability = 63;
+        break;
+    case 8:
+        admissionProbability = 69;
+        break;
+    case 7:
+        admissionProbability = 71;
+        break;
+    case 6:
+        admissionProbability = 63;
+        break;
+    case 5:
+        admissionProbability = 44;
+        break;
+    case 4:
+        admissionProbability = 45;
+        break;
+    case 3:
+        admissionProbability = 38;
+        break;
+    case 2:
+        admissionProbability = 34;
+    break;
+    case 1:
+        admissionProbability = 0;
+    break;
+    default:
+        admissionProbability = 0;
+    }
+	return admissionProbability;
 }

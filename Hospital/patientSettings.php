@@ -53,17 +53,17 @@ Select from the below frequency of admissions<br><br>
   		<button id="3" type="button" class="btn btn-secondary">Over 75</button>
 		</div> 
 		<br><br>
-    <!-- NEWS SCORE -->
+    <!-- MEWS SCORE -->
     <div class="slidecontainer">
-        <p>MEWS Score <span id="newsScore"></span></p>
-        <input type="range" min="0" max="11" value="0" id="newsRange">        
+        <p>MEWS Score <span id="mewsScore"></span></p>
+        <input type="range" min="0" max="11" value="0" id="mewsRange">        
       </div>
    <div class="form-group">
   	   <label for="comment">E-Notes:</label>
   		<textarea class="form-control" rows="3" id="e-note"></textarea>
 		</div> 
     <p> Preview Admission Probability</p>
-		<textarea class="form-control" rows="1" id="diagnosis" readonly ></textarea>
+		<textarea class="form-control" rows="1" id="probability" readonly ></textarea>
 		<br>
 		<p>Elapsed time to arrival:</p>
 			<div class="slidecontainer">
@@ -87,10 +87,11 @@ Select from the below frequency of admissions<br><br>
     					<thead>
       					<tr>
         				<th>Patient</th>
-        				<th>Diagnosis</th>
+                <th>MEWS</th>
+        				<th>Admission Probability</th>
        					<th>Time to arrive</th>
-      </tr>
-    </thead>
+                </tr>
+              </thead>
     <tbody id="patientListTableBody">
  		<br> <br>
     	</tbody>

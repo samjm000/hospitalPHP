@@ -1,7 +1,4 @@
-//# sourceURL=pageEffects.js';
-//variables
-var ageGroup=2;
-var loggedIn = 0;
+//PATIENT SETTINGS PAGE JS - WORKS WITH PATIENT CREATOR AND DIAGNOSIS ENGINE
 
 //Patient creator colour coding on click
 $("#manVsAutoBtnGroup").on('click', '.btn', function() {
@@ -33,16 +30,16 @@ $(document).ready(function(){
       $("#automaticPanel").hide();
         $("#manualPatientSetup").fadeIn();
     });
-
 });
 
-//NEWS Slide 
-var newsSlider = document.getElementById("newsRange");
-var newsOutput = document.getElementById("newsScore");
-newsOutput.innerHTML = newsSlider.value; // Display the default slider value
+//MEWS Slide 
+var mewsSlider = document.getElementById("mewsRange");
+var mewsOutput = document.getElementById("mewsScore");
+mewsOutput.innerHTML = mewsSlider.value; // Display the default slider value
 // Update the current slider value (each time you drag the slider handle)
-newsSlider.oninput = function() {
-    newsOutput.innerHTML = this.value;
+mewsSlider.oninput = function() {
+    mewsOutput.innerHTML = this.value;
+    $("#probability").val(eNoteTextProcessor($("#e-note").val(),$("#mewsRange").val()));
 } 
 
 

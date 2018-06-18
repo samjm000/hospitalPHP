@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"diagn",
+				"diagnosisProbability"
+			],
+			[
+				"dia",
+				"diagnosisProbability"
+			],
+			[
+				"new",
+				"newsScore"
+			],
+			[
 				"hos",
 				"hospitalSettings"
 			],
@@ -128,10 +140,6 @@
 				"age"
 			],
 			[
-				"dia",
-				"diagnosisCreator"
-			],
-			[
 				"che",
 				"startSimulationCheck"
 			],
@@ -223,6 +231,35 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Hospital/patientSettings.php",
+			"settings":
+			{
+				"buffer_size": 3792,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//# sourceURL=pageEffects.js';\n\n\n//Patient creator colour coding on click\n$(\"#manVsAutoBtnGroup\").on('click', '.btn', function() {\n  $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  \n  });\n\n//Patient creator colour coding on click\n$(\"#autoBusyButtonGroup\").on('click', '.btn', function() {\n  $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  \n  });\n\n//Patient manual vs automatic creation buttons\n$(document).ready(function(){\n    $(\"#automaticPanel\").hide();\n\n    $(\"#automaticButton\").click(function(){\n    \t$(\"#manualPatientSetup\").hide();\n        $(\"#automaticPanel\").fadeIn();\n    });\n    //Patient List clear\n  $(\"#clearPatientList\").click(function(){\n    console.log(\"Clearing Patients\");\n    patientList.length=0;\n    $(\"#patientListTableBody\").empty();\n  });\n\n   $(\"#manualButton\").click(function(){\n      console.log(\"manualButton pushed\")\n      $(\"#automaticPanel\").hide();\n        $(\"#manualPatientSetup\").fadeIn();\n    });\n\n});\n\n//NEWS Slide \nvar newsSlider = document.getElementById(\"newsRange\");\nvar newsOutput = document.getElementById(\"newsScore\");\nnewsOutput.innerHTML = newsSlider.value; // Display the default slider value\n// Update the current slider value (each time you drag the slider handle)\nnewsSlider.oninput = function() {\n    newsOutput.innerHTML = this.value;\n} \n\n\n//Arrival time slider \nvar slider = document.getElementById(\"myRange\");\nvar output = document.getElementById(\"elapsedSlider\");\noutput.innerHTML = slider.value; // Display the default slider value\n// Update the current slider value (each time you drag the slider handle)\nslider.oninput = function() {\n    output.innerHTML = this.value;\n} \n\n//Patient blueprint colour coding on click\n$(\"#ageButtonGroup\").on('click', '.btn', function() {\n  console.log(\"Setting patient ageGroup to :\");\n  $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  \n  ageGroup = $(this).prop('id');\n  console.log(ageGroup);\n  });\n\n\n//Dynamic table creator\nfunction buildRow(patientList) {\n  for (var i=0; i<patientList.length; i++) {\n   //$(\"#card-body\").animate({backgroundcolor: \"#66ff99\"}, 1500).animate({backgroundcolor: \"fff\"}, 1500);\n   var tableReplacement = \"<tr><td>\"+(i+1)+\"</td><td>\"+patientList[i].diagnosis+\"</td><td>\"+patientList[i].arrivalTime+\"</td></tr>\";\n    console.log(\"Replacement String:\" + tableReplacement);\n  }\n  \n  $(\"#cardBodyRight\").animate({backgroundColor: \"#ccffe6\"},250).animate({backgroundColor: \"#fff\"},1000);\n \n  $(\"#patientListTableBody\").append(tableReplacement);\n  console.log(\"Patient added to table\");\n};\n\n\n",
+			"file": "Hospital/js/configureSimJS/settingsPageEffects.js",
+			"file_size": 2871,
+			"file_write_time": 131734848506868808,
+			"settings":
+			{
+				"buffer_size": 2745,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Hospital/js/configureSimJS/patientCreator.js",
+			"settings":
+			{
+				"buffer_size": 2209,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -256,22 +293,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital"
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/databasePHP",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS"
 	],
 	"file_history":
 	[
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/configureSim.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/hospitalSettings.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/overviewSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/configureSim.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/patientCreator.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/diagnosisEngine.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/overviewSettings.js",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/login.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/hospitalSettings.php",
+		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/overviewSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/patientSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/realtimeSettings.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/realtimeSettings.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/configureSim.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/diagnosisEngine.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/settingsPageEffects.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/configureSim.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/methodology.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/simulationScreen.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/objectives.php",
@@ -286,7 +327,6 @@
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/TEWSScreen.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/css/configurationStyle.css",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/configureSimJS/pageEffects.js",
-		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/login.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/index.php",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/jqueryUI/jqueryColour.min.js",
 		"/C/Users/Sam/Desktop/Code/hospitalPHP/Hospital/js/bootstrap/popper.min.js",
@@ -408,6 +448,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"(",
 			",",
 			"col",
 			";\n",
@@ -471,8 +512,99 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Hospital/patientSettings.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3374,
+								3374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Hospital/js/configureSimJS/settingsPageEffects.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Hospital/js/configureSimJS/patientCreator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1646,
+								1646
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
