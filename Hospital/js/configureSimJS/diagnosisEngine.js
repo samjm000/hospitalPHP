@@ -16,7 +16,7 @@ function eNoteTextProcessor (eText, mewsScore) {
     }
 
     console.log(mewsScore);
-
+    //test
     //if not admitted via text, use MEWS
 	switch (+mewsScore) {
     case 11:
