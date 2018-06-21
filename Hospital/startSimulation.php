@@ -35,11 +35,46 @@ include("navBar.php");
 <div class="border row">
  	<div class="border col-6 patientListTitle" >Patient List 
  		<div class="row">
- 			<div class="border col-1 patientList">No</div>
-		 	<div class="border col-3 patientList">Patient ID</div>
- 			<div class="border col-3 patientList">Time In Dept</div>
- 			<div class="border col-2 patientList">MEWS</div>
- 			<div class="border col-3 patientList">Admission</div>
+ 			<div class="border col-1 patientList" id="patientNoCol">No
+ 				<!--<div class="border row admittingRow">1</div>
+ 				<div class="border row admittingRow">2</div>
+ 				<div class="border row">3</div>
+ 				<div class="border row admittingRow">4</div>
+ 				<div class="border row">5</div>
+ 				<div class="border row">6</div>-->
+ 			</div>
+		 	<div class="border col-3 patientList" id="patientIDCol">Patient ID
+		 		<!--<div class="border row admittingRow">223111</div>
+ 				<div class="border row admittingRow">323112</div>
+ 				<div class="border row">123113</div>
+ 				<div class="border row admittingRow">243114</div>
+ 				<div class="border row">343115</div>
+ 				<div class="border row">113116</div>-->
+ 				</div>
+ 			<div class="border col-3 patientList" id="patientTimeCol">Time In Dept
+ 				<!--<div class="border row admittingRow">0</div>
+ 				<div class="border row admittingRow">0</div>
+ 				<div class="border row">0</div>
+ 				<div class="border row admittingRow">0</div>
+ 				<div class="border row">0</div>
+ 				<div class="border row">0</div>-->
+ 				</div>
+ 			<div class="border col-2 patientList" id="patientMEWSCol">MEWS
+ 				<!--<div class="border row admittingRow">7</div>
+ 				<div class="border row admittingRow">8</div>
+ 				<div class="border row">0</div>
+ 				<div class="border row admittingRow">2</div>
+ 				<div class="border row">1</div>
+ 				<div class="border row">1</div>-->
+ 				</div>
+ 			<div class="border col-3 patientList" id="patientAdmissionCol">Admission
+ 				<!--<div class="border row admittingRow">Y</div>
+ 				<div class="border row admittingRow">Y</div>
+ 				<div class="border row">N</div>
+ 				<div class="border row admittingRow">Y</div>
+ 				<div class="border row">N</div>
+ 				<div class="border row">N</div>-->
+ 			</div>
 		</div>
  	</div>
   		

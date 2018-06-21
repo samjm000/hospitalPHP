@@ -36,3 +36,18 @@
     background-color: lightgreen;
 }
 
+.admittingRow {
+	background-color: yellow;
+}
+
+.warningLevel {
+	background-color: yellow;
+} 
+
+.dangerLevel {
+	background-color: red;
+} 
+
+.extremeLevel {
+	background-color: purple;
+} 

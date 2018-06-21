@@ -1,5 +1,7 @@
 //PATIENT SETTINGS PAGE JS - WORKS WITH PATIENT CREATOR AND DIAGNOSIS ENGINE
 
+var listOfPatients = 0;
+
 //Patient creator colour coding on click
 $("#manVsAutoBtnGroup").on('click', '.btn', function() {
   $(this).removeClass('btn-secondary').addClass('btn-primary').siblings().removeClass('btn-primary').addClass('btn-secondary');  
@@ -32,16 +34,6 @@ $(document).ready(function(){
     });
 });
 
-//MEWS Slide 
-var mewsSlider = document.getElementById("mewsRange");
-var mewsOutput = document.getElementById("mewsScore");
-mewsOutput.innerHTML = mewsSlider.value; // Display the default slider value
-// Update the current slider value (each time you drag the slider handle)
-mewsSlider.oninput = function() {
-    mewsOutput.innerHTML = this.value;
-    $("#probability").val(eNoteTextProcessor($("#e-note").val(),$("#mewsRange").val()));
-} 
-
 
 //Arrival time slider 
 var slider = document.getElementById("myRange");
@@ -64,8 +56,9 @@ $("#ageButtonGroup").on('click', '.btn', function() {
 //Dynamic table creator
 function buildRow(patientList) {
   for (var i=0; i<patientList.length; i++) {
+    listOfPatients++;
    //$("#card-body").animate({backgroundcolor: "#66ff99"}, 1500).animate({backgroundcolor: "fff"}, 1500);
-   var tableReplacement = "<tr><td>"+(i+1)+"</td><td>"+patientList[i].diagnosis+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
+   var tableReplacement = "<tr><td>"+(listOfPatients)+"</td><td>"+patientList[i].mewsScore+"</td><td>"+patientList[i].admissionProbability+"</td><td>"+patientList[i].arrivalTime+"</td></tr>";
     console.log("Replacement String:" + tableReplacement);
   }
   

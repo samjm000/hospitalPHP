@@ -6,9 +6,8 @@ function Patient(age, mewsScore, eNote, arrivalTime, admissionProbability) {
     this.age = age;
     this.mewsScore = mewsScore;
     this.eNote = eNote;
-    this.diagnosis = diagnosis;
     this.arrivalTime = arrivalTime;
-    this.admissionProbability = arrivalTime;
+    this.admissionProbability = admissionProbability;
 }
 Patient.prototype.getDetails = function() {
   return ("Age:"+this.age+", MEWS:"+this.mewsScore+", eNote:"+this.eNote+", Arrival Time:"+this.arrivalTime+".");
@@ -25,7 +24,7 @@ mewsOutput.innerHTML = mewsSlider.value; // Display the default slider value
 // Update the current slider value (each time you drag the slider handle)
 mewsSlider.oninput = function() {
     mewsOutput.innerHTML = this.value;
-   // $("#probability").val(eNoteTextProcessor($("#e-note").val(),$("#mewsRange").val()+" %"));
+    $("#probability").val(eNoteTextProcessor($("#e-note").val(),this.value));
 } 
 
 //Update Admission probability with E-Note changes, set subsequent variables

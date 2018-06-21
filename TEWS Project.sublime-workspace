@@ -264,7 +264,6 @@
 			"settings":
 			{
 				"buffer_size": 2437,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -614,8 +613,8 @@
 						"selection":
 						[
 							[
-								1734,
-								1734
+								337,
+								337
 							]
 						],
 						"settings":

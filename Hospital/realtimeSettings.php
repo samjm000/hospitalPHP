@@ -11,7 +11,7 @@
 <br>
 <h3>Select speed of simulation </h3>
 
-    	<div id="speedButtons" class="btn-group btn-group-lg">
+    	<div id="speedButtons" class="btn-group btn-group">
   		<button id ="speed1" type="button" class="btn btn-primary ">Normal</button>
   		<button id="speed2" type="button" class="btn btn-secondary">Fast</button>
   		<button id="speed3" type="button" class="btn btn-secondary">Very Fast</button>
